@@ -17,7 +17,7 @@ const Main = () => {
                     visible: { opacity: 1, x: 0, scale: "100%" },
                 }}>
                 <div className='flex flex-col gap-2 items-center w-full f-full justify-center  text-white-100 '>
-                    <div className='flex flex-col gap-2 items-start justify-center'> <h1 className=' font-bold items-center justify-center text-[44px]'>Welcome to Your Amazing Give Aways</h1> <p className=' font-bold items-center justify-center  text-[36px] '>Where your dream Get away is on give away</p></div>
+                    <div className='flex flex-col gap-2 items-start justify-center'>  <p className=' font-bold items-center justify-center  text-[36px] '>No matter where you are there's no place like Amazing Getaway</p></div>
                     <div className='flex flex-col items-center justify-center text-center text-[28px]'><p>We offer a feature called "Airbnb Experiences" thats part of our travel packages. This provides guests with unique and curated activities and tours hosted by local experts. These experiences allow our guests (tourists) to immerse themselves in the local culture, learn new skills, and explore a destination more authentically. These experiences are designed to offer tourists/guests a deeper connection to the places they visit and create memorable moments during their trip
                     </p></div>
                     <div className='flex items-center justify-center   text-white-100 text-center text-[28px] mt-8'><p>These two features are unique because they accommodate our guests budgets. The travel packages offer discounts and special offers for our guests<button onClick={() => setMore(!more)} className="text-blue-800 text-[26px]">More...</button></p>
@@ -38,9 +38,9 @@ const Main = () => {
                     </p>
 
                 </div>
-                <div className='relative'>
-                    <div className="before:absolute before:-bottom-20 before:-left-20 before:z-[-1] before:content-pic18">
-                    </div></div>
+                {/* <div className='relative'>
+                    <div className="before:absolute before:-bottom-20 before:-left-20 before:z-[-1] before:content-pic18 w-[100px] h-[100px]">
+                    </div></div> */}
             </motion.div>
         </div>
     )

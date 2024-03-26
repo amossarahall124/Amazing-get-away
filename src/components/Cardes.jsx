@@ -7,8 +7,7 @@ import { motion } from "framer-motion";
 const Cardes = () => {
     return (
         < section className=" p-6 bg-black-100 ">
-            <div className='relative'>
-                <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-pic18 w-[100px] h-[100px]"></div></div>
+
             <h1 className=" items-center text-second-500 bg-black-100 font-bold text-4xl text-center ">OUR SERICES  </h1>
             <div className='w-full bg-black-100 mx-auto p-4 py-12 grid md:grid-cols-3 gap-6'>
                 <motion.div
@@ -16,7 +15,7 @@ const Cardes = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
-                    transition={{ duration: 3.0 }}
+                    transition={{ duration: 3.0, ease: "easeInOut" }}
                     variants={{
                         hidden: { opacity: 0, x: -80 },
                         visible: { opacity: 1, x: 0 },

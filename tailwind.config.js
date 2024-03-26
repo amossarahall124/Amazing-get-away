@@ -24,7 +24,7 @@ export default {
         "black-300": "#333533",
       },
       content: {
-        "pic18": "url(/src/assets/gallery/Picture18.jpg)",
+        "pic18": "url(/gallery/Picture5.jpg)",
         abstractwaves: "url('./assets/AbstractWaves.png')",
         sparkles: "url('./assets/Sparkles.png')",
         circles: "url('./assets/Circles.png')",
