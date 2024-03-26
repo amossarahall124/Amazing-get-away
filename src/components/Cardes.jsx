@@ -6,19 +6,21 @@ import { motion } from "framer-motion";
 
 const Cardes = () => {
     return (
-        < section className=" p-6 bg-black-100">
-            <motion.div
-                className=""
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.5 }}
-                transition={{ duration: 3.0 }}
-                variants={{
-                    hidden: { opacity: 0, x: -80 },
-                    visible: { opacity: 1, x: 0 },
-                }}>
-                <h1 className=" items-center text-second-500 bg-black-100 font-bold text-4xl text-center ">OUR SERICES  </h1>
-                <div className='w-full bg-black-100 mx-auto p-4 py-12 grid md:grid-cols-3 gap-6'>
+        < section className=" p-6 bg-black-100 ">
+            <div className='relative'>
+                <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-pic18 w-[100px] h-[100px]"></div></div>
+            <h1 className=" items-center text-second-500 bg-black-100 font-bold text-4xl text-center ">OUR SERICES  </h1>
+            <div className='w-full bg-black-100 mx-auto p-4 py-12 grid md:grid-cols-3 gap-6'>
+                <motion.div
+                    className=""
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 3.0 }}
+                    variants={{
+                        hidden: { opacity: 0, x: -80 },
+                        visible: { opacity: 1, x: 0 },
+                    }}>
                     <div className=' text-center rounded-xl relative hover:block hover:text-white-100 hover:scale-105 hover:rounded-xl text-second-100 shadow-sm hover:shadow-lg shadow-stone-800 duration-300'>
 
                         <div className='absolute w-full  h-full  bg-black/40 hover:bg-black/60  '>
@@ -31,7 +33,18 @@ const Cardes = () => {
                             alt='bike delivery'
                         />
                     </div>
+                </motion.div>
 
+                <motion.div
+                    className=""
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 3.0 }}
+                    variants={{
+                        hidden: { opacity: 0, y: -80 },
+                        visible: { opacity: 1, y: 0 },
+                    }}>
                     <div className='text-center rounded-xl relative hover:block hover:text-white-100 hover:scale-105 hover:rounded-xl text-second-100 shadow-sm hover:shadow-lg shadow-stone-800 duration-300'>
 
                         <div className='absolute w-full h-full bg-black/40 rounded-xl text-second-100 hover:bg-black/60 hover:text-white-100 hover:scale-105 shadow-sm hover:shadow-lg shadow-stone-800 duration-300 '>
@@ -45,7 +58,18 @@ const Cardes = () => {
                             alt='woman odering'
                         />
                     </div>
+                </motion.div>
 
+                <motion.div
+                    className=""
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 3.0 }}
+                    variants={{
+                        hidden: { opacity: 0, x: 80 },
+                        visible: { opacity: 1, x: 0 },
+                    }}>
                     <div className='text-center rounded-xl relative hover:block hover:text-white-100 hover:scale-105 hover:rounded-xl text-second-100 shadow-sm hover:shadow-lg shadow-stone-800 duration-300'>
 
                         <div className='absolute w-full h-full bg-black/40 rounded-xl text-second-100 hover:bg-black/60 hover:text-white-100 hover:scale-105 shadow-sm hover:shadow-lg shadow-stone-800 duration-300'>
@@ -58,8 +82,9 @@ const Cardes = () => {
                             alt='open doors'
                         />
                     </div>
-                </div>
-            </motion.div>
+                </motion.div>
+            </div>
+
         </section>
     )
 }
