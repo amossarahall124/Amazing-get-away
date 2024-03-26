@@ -19,7 +19,7 @@ const Parallax2 = () => {
                 style={{ y: textY }}
                 className="font-bold text-black text-7xl md:text-6xl relative z-10 -mt-60"
             >
-                Amzing Gate Away
+                Amazing Getaway
             </motion.h1>
 
             <motion.div
