@@ -1,8 +1,8 @@
 
 // import StarRating from "react-svg-star-rating";
 import { useState } from "react"
-import Picture2 from "/gallery/Picture2.jpg"
-import Picture3 from "/gallery/Picture3.jpg"
+import Picture2 from "../assets/Picture2"
+import Picture3 from "../assets/Picture3"
 
 
 
