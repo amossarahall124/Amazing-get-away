@@ -25,7 +25,7 @@ const Parallax2 = () => {
             <motion.div
                 className="absolute inset-0 z-0 rounded-sm broder-2 broder-blue-500"
                 style={{
-                    backgroundImage: `url(/src/assets/hill.png)`,
+                    backgroundImage: `url(/hill.png)`,
                     backgroundPosition: "bottom",
                     backgroundSize: "cover",
                     y: backgroundY,
@@ -35,7 +35,7 @@ const Parallax2 = () => {
             <div
                 className="absolute inset-0 z-20 rounded-sm broder-2 broder-blue-500"
                 style={{
-                    backgroundImage: `url(/src/assets/hillb.png)`,
+                    backgroundImage: `url(/hillb.png)`,
                     backgroundPosition: "bottom",
                     backgroundSize: "cover",
                 }}

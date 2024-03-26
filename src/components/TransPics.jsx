@@ -1,13 +1,13 @@
 import React from 'react'
-import Picture4 from "../assets/gallery/Picture4.jpg"
-import Picture5 from "../assets/gallery/Picture5.jpg"
+import Picture4 from "/gallery/Picture4.jpg"
+import Picture5 from "/gallery/Picture5.jpg"
 import { motion } from "framer-motion"
 
 
 const TransPics = () => {
     return (
         <div>
-            <div className=" flex">
+            {/* <div className=" flex">
                 <motion.div
                     className="' w-[200px] h-[200px] relative mt-[100px] ml-[300px]'"
                     initial="hidden"
@@ -40,7 +40,7 @@ const TransPics = () => {
                         alt='bike delivery'
                     />
                 </motion.div >
-            </div >
+            </div > */}
         </div>
 
     )

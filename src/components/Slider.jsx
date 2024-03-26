@@ -6,50 +6,50 @@ import { RxDotFilled } from 'react-icons/rx';
 function Slider() {
     const slides = [
         {
-            url: '/src/assets/gallery/Picture4.jpg',
+            url: '/gallery/Picture4.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture5.jpg',
+            url: '/gallery/Picture5.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture6.jpg',
+            url: '/gallery/Picture6.jpg',
         },
 
         {
-            url: '/src/assets/gallery/Picture7.jpg',
+            url: '/gallery/Picture7.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture8.jpg',
+            url: '/gallery/Picture8.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture9.jpg',
+            url: '/gallery/Picture9.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture10.jpg',
+            url: '/gallery/Picture10.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture11.jpg',
+            url: '/gallery/Picture11.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture12.jpg',
+            url: '/gallery/Picture12.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture13.jpg',
+            url: '/gallery/Picture13.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture14.jpg',
+            url: '/gallery/Picture14.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture15.jpg',
+            url: '/gallery/Picture15.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture16.jpg',
+            url: '/gallery/Picture16.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture17.jpg',
+            url: '/gallery/Picture17.jpg',
         },
         {
-            url: '/src/assets/gallery/Picture18.jpg',
+            url: '/gallery/Picture18.jpg',
         },
     ];
 
